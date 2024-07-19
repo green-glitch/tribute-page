@@ -37,3 +37,21 @@ span {
     font-size: 20px;
     font-weight: bold;
 }
+
+#quote-block {
+    text-align: left;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    font-style: italic;
+}
+
+#quote-text {
+    font-size: 19px;
+}
+
+#quote-author {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: right;
+}

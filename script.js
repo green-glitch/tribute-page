@@ -30,8 +30,8 @@ const quotes = [
 
 function quoteUpdate(){
     const random = Math.floor(Math.random() * quotes.length);
-    quoteText.textContent = quotes[random].qt;
-    quoteAuthor.textContent = quotes[random].qa;
+    quoteText.textContent = '"' + quotes[random].qt + '"';
+    quoteAuthor.textContent = "- " + quotes[random].qa;
 }
 
 quoteUpdate();

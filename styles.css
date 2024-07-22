@@ -56,3 +56,9 @@ span {
     margin-top: 10px;
     text-align: right;
 }
+
+footer a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}

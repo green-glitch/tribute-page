@@ -48,10 +48,17 @@ span {
 
 #quote-text {
     font-size: 19px;
+    height: 90px;
 }
 
 #quote-author {
     font-size: 16px;
     margin-top: 10px;
     text-align: right;
+}
+
+footer a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
 }

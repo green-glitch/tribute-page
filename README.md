@@ -1,12 +1,4 @@
 # Tribute Page
-<<<<<<< HEAD
-## About
-This is 2nd of 5 Certification Projects to earn Responsive Web Design Certification in freeCodeCamp.org curriculum.\
-For this project, I built tribute page about polish poet Adam Mickiewicz.
-
-## Link
-[click here](https://green-glitch.github.io/tribute-page/)
-=======
 
 A simple and responsive tribute webpage dedicated to Adam Mickiewicz, a prominent Polish poet and national figure. This page provides a comprehensive biography and timeline of his life, achievements, and contributions.
 
@@ -34,5 +26,4 @@ This project contains two primary files:
 1. Clone this repository:
    ```bash
    git clone https://github.com/green-glitch/tribute-page.git
-1. Open **`index.html`** in your browser to view the page.
->>>>>>> dev
+2. Open **`index.html`** in your browser to view the page.

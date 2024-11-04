@@ -1,36 +1,42 @@
 body {
   text-align: center;
   font-family: serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px 10px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 16px;
 }
 
 ul {
   text-align: left;
   max-width: 500px;
   margin: auto;
+  padding: 0;
+  list-style: none;
 }
 
 li {
   padding-bottom: 10px;
 }
 
-main {
-  padding: 20px 10px;
-}
-
-h1 {
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-
 p {
   font-size: 20px;
-}
-
-#image {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: auto;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -42,27 +48,44 @@ span {
   font-weight: bold;
 }
 
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 10px;
+}
+
 #quote-block {
   text-align: left;
   width: 400px;
   margin: auto;
   padding: 20px;
   font-style: italic;
+  background-color: #f7f7f7;
+  border-radius: 10px;
 }
 
 #quote-text {
   font-size: 19px;
   height: 90px;
+  overflow: hidden;
 }
 
 #quote-author {
   font-size: 16px;
   margin-top: 10px;
   text-align: right;
+  font-weight: bold;
 }
 
 footer a {
   font-size: 40px;
   text-decoration: none;
   color: black;
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  color: #666;
 }

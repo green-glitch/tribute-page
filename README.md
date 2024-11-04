@@ -5,7 +5,7 @@ A simple and responsive tribute webpage dedicated to Adam Mickiewicz, a prominen
 ## Project Structure
 
 This project contains two primary files:
-- **`index.html`** - The main HTML file that structures the content and includes references to styles and scripts.
+- **`index.html`** - The main HTML file that structures the content and includes references to styles.
 - **`styles.css`** - The CSS file that defines the styling of the page, ensuring a visually appealing and easy-to-read layout.
 
 ## Features

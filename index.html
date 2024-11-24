@@ -1,9 +1,21 @@
 <!DOCTYPE html>
+<!-- Defines the document type as HTML5 -->
+
 <html lang="en">
+  <!-- Sets the language of the document to English -->
+
   <head>
+    <!-- Head section contains metadata and links to stylesheets and other resources -->
+
     <meta charset="UTF-8" />
+    <!-- Sets the character encoding to UTF-8 for proper text rendering -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensures proper scaling and responsiveness on different devices -->
+
     <link rel="stylesheet" href="styles.css" />
+    <!-- Links to an external CSS file for styling -->
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -11,103 +23,101 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Links to the Font Awesome library for icons, with integrity and security attributes -->
+
     <title>Tribute Page</title>
+    <!-- Sets the title of the page, displayed in the browser tab -->
   </head>
+
   <body>
-    <main id="main">
+    <!-- Body section contains the main content of the webpage -->
+
+    <main>
+      <!-- Main section holds the primary content of the tribute page -->
+
       <h1 id="title">Adam Mickiewicz</h1>
+      <!-- Main heading displaying the name of the person being honored -->
+
       <p id="subtitle">Polish poet, dramatist, essayist, publicist</p>
-      <div id="img-div">
+      <!-- Subtitle providing a brief description of Adam Mickiewicz's roles -->
+
+      <figure is="img-div">
+        <!-- Figure element groups the image and caption for better semantic structure -->
+
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Adam_Mickiewicz_wed%C5%82ug_dagerotypu_paryskiego_z_1842_roku.jpg"
           alt="Adam Mickiewicz portrait"
           id="image"
-        /><br />
-        <div id="img-caption">
+          />
+        <!-- Image of Adam Mickiewicz with a descriptive alt attribute -->
+
+        <figcaption id="img-caption">
           Adam Mickiewicz according to the Parisian daguerreotype of 1842<br />
           (source: Wikimedia Commons,
           <a
             href="https://commons.wikimedia.org/wiki/File:Adam_Mickiewicz_wed%C5%82ug_dagerotypu_paryskiego_z_1842_roku.jpg"
             >here</a
           >)
-        </div>
-      </div>
+        </figcaption>
+        <!-- Caption for the image with a clickable link to the image source -->
+      </figure>
+
       <div id="tribute-info">
+        <!-- Container for the main biographical information about Adam Mickiewicz -->
+
         <h2>Here's a info about Adam Mickiewicz</h2>
+        <!-- Subheading for the biographical section -->
+
         <ul>
-          <li>
-            Born on December 24, 1798 in Zaosie near Nowogródek (now Belarus).
-          </li>
-          <li>
-            Father, Mikołaj Mickiewicz, was a lawyer; mother, Barbara from the
-            Majewski family.
-          </li>
+          <!-- Unordered list for biographical timeline entries -->
+          <li>Born on December 24, 1798 in Zaosie near Nowogródek (now Belarus).</li>
+          <li>Father, Mikołaj Mickiewicz, was a lawyer; mother, Barbara from the Majewski family.</li>
           <li>1807-1815: attended a gymnasium in Nowogródek.</li>
-          <li>
-            1815-1819: studied at Vilnius University, where he obtained a
-            master's degree in philosophy.
-          </li>
-          <li>
-            Co-founder of the Philomath Society (1817) and the Filaret
-            Association.
-          </li>
-          <li>
-            Arrested by Tsarist authorities in 1823 for patriotic activities.
-          </li>
-          <li>
-            1824: sentenced to exile in the interior of Russia, stayed in St.
-            Petersburg, Odessa, and Moscow, among other places.
-          </li>
-          <li>
-            1826: published "Crimean Sonnets" and "Konrad Wallenrod" (1828).
-          </li>
-          <li>
-            1829-1830: traveled across Europe, visiting Germany, Italy, and
-            Switzerland.
-          </li>
+          <li>1815-1819: studied at Vilnius University, where he obtained a master's degree in philosophy.</li>
+          <li>Co-founder of the Philomath Society (1817) and the Filaret Association.</li>
+          <li>Arrested by Tsarist authorities in 1823 for patriotic activities.</li>
+          <li>1824: sentenced to exile in the interior of Russia, stayed in St. Petersburg, Odessa, and Moscow, among other places.</li>
+          <li>1826: published "Crimean Sonnets" and "Konrad Wallenrod" (1828).</li>
+          <li>1829-1830: traveled across Europe, visiting Germany, Italy, and Switzerland.</li>
           <li>1832: settled in Paris.</li>
           <li>1832: published "Dziady Part III".</li>
           <li>1834: publication of "Pan Tadeusz".</li>
-          <li>
-            1848: organized a Polish legion in Italy during the Revolutions of
-            1848.
-          </li>
+          <li>1848: organized a Polish legion in Italy during the Revolutions of 1848.</li>
           <li>1839-1840: gave lectures in Lausanne.</li>
-          <li>
-            1840-1844: professor of Slavic literature at Collège de France.
-          </li>
-          <li>
-            1834: married Celina Szymanowska, with whom he had six children.
-          </li>
-          <li>
-            1855: traveled to Constantinople to organize aid for Polish
-            emigrants fighting in the Crimean War.
-          </li>
-          <li>
-            Died on November 26, 1855, in Constantinople (now Istanbul, Turkey).
-          </li>
+          <li>1840-1844: professor of Slavic literature at Collège de France.</li>
+          <li>1834: married Celina Szymanowska, with whom he had six children.</li>
+          <li>1855: traveled to Constantinople to organize aid for Polish emigrants fighting in the Crimean War.</li>
+          <li>Died on November 26, 1855, in Constantinople (now Istanbul, Turkey).</li>
           <li>Initially buried in Montmorency near Paris.</li>
           <li>In 1890, his remains were transferred to Wawel in Krakow.</li>
         </ul>
+        <!-- Detailed timeline of Adam Mickiewicz's life in list form -->
       </div>
+
       <div>
-        <span
-          >Click
+        <!-- Section for additional information with a link to Wikipedia -->
+        
+        <span>
+          Click
           <a
             id="tribute-link"
             href="https://en.wikipedia.org/wiki/Adam_Mickiewicz"
             target="_blank"
             >here</a
           >
-          to more info</span
-        >
+          to more info
+        </span>
+        <!-- Link to a Wikipedia page for further reading about Adam Mickiewicz -->
       </div>
     </main>
+
     <footer>
-      <a href="https://github.com/green-glitch/tribute-page"
-        ><i class="fa-brands fa-github"></i
-      ></a>
+      <!-- Footer section for additional links or information -->
+
+      <a href="https://github.com/green-glitch/tribute-page">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <!-- GitHub link icon for viewing the code repository of this tribute page -->
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>

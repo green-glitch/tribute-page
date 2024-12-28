@@ -3,6 +3,7 @@ body {
   font-family: serif;
   margin: 0;
   padding: 0;
+  background-color: #aaa;
 }
 
 main {
@@ -76,6 +77,11 @@ span {
   margin-top: 10px;
   text-align: right;
   font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
 }
 
 footer a {
